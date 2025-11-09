@@ -1,0 +1,14 @@
+[0.007s] Invoking command in '/home/jonsnow/ros2_ws/build/my_robot_bringup': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/jonsnow/ros2_ws/install/my_robot_controller:/opt/ros/humble /usr/bin/cmake --build /home/jonsnow/ros2_ws/build/my_robot_bringup -- -j16 -l16
+[0.041s] Invoked command in '/home/jonsnow/ros2_ws/build/my_robot_bringup' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/jonsnow/ros2_ws/install/my_robot_controller:/opt/ros/humble /usr/bin/cmake --build /home/jonsnow/ros2_ws/build/my_robot_bringup -- -j16 -l16
+[0.042s] Invoking command in '/home/jonsnow/ros2_ws/build/my_robot_bringup': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/jonsnow/ros2_ws/install/my_robot_controller:/opt/ros/humble /usr/bin/cmake --install /home/jonsnow/ros2_ws/build/my_robot_bringup
+[0.049s] -- Install configuration: ""
+[0.049s] -- Execute custom install script
+[0.049s] [31mCMake Error at ament_cmake_symlink_install/ament_cmake_symlink_install.cmake:100 (message):
+[0.049s]   ament_cmake_symlink_install_directory() can't find
+[0.049s]   '/home/jonsnow/ros2_ws/src/my_robot_bringup/launch'
+[0.049s] Call Stack (most recent call first):
+[0.049s]   ament_cmake_symlink_install/ament_cmake_symlink_install.cmake:314 (ament_cmake_symlink_install_directory)
+[0.049s]   cmake_install.cmake:46 (include)
+[0.049s] 
+[0.049s] [0m
+[0.050s] Invoked command in '/home/jonsnow/ros2_ws/build/my_robot_bringup' returned '1': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/jonsnow/ros2_ws/install/my_robot_controller:/opt/ros/humble /usr/bin/cmake --install /home/jonsnow/ros2_ws/build/my_robot_bringup
